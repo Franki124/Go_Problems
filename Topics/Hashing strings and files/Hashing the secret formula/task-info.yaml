@@ -1,0 +1,18 @@
+type: remote_edu
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+  - name: secret_formula.txt
+    visible: false
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19071#comment
+check_profile: hyperskill_go
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 13 Sep 2024 12:47:58 UTC"
+record: -1

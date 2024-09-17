@@ -1,0 +1,17 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24770#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Passed test #1. Well done! 🥇
+    Passed test #2. Well done! 🥇
+    Passed test #3. Well done! 🥇
+    Passed test #4. Well done! 🥇
+    Passed test #5. Well done! 🥇</html>
+  time: "Sun, 08 Sep 2024 21:33:25 UTC"
+record: -1
+submission_language: go

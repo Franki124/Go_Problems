@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: Empty interfaces do not specify any methods.
+  - text: The default value of an empty interface is <code>nil</code>.
+  - text: They can hold values of any type.
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18729#comment
+status: Solved
+record: -1
+custom_name: What are empty interfaces?
+local_check: false

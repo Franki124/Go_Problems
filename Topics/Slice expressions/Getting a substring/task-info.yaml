@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>"among.us"</code>
+  - text: <code>"@mong.us"</code>
+  - text: <code>"among us"</code>
+  - text: <code>"impostor"</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20413#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,25 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "Directly invoking the anonymous function:<pre><code class=\"language-go\"\
+    > func main() {<br>     func(msg string) {<br>         fmt.Println(msg)<br>  \
+    \   }(\"Hello, World!\")<br> }</code></pre>"
+  - text: "Using an assigned variable that holds the function:<pre><code class=\"language-go\"\
+    > func main() {<br>     var myFunc = func(msg string) {<br>         fmt.Println(msg)<br>\
+    \     }<br>     myFunc(\"Hello, World!\")<br> }</code></pre>"
+  - text: "Utilizing the argument name from a higher-order function that takes this\
+    \ anonymous function as a parameter:<pre><code class=\"language-go\">func higherOrderFunction(fn\
+    \ func(string)) {<br>     fn(\"Hello from higher order function!\")<br> }<br>\
+    \ <br> func main() {<br>     var myFunc = func(msg string) {<br>         fmt.Println(msg)<br>\
+    \     }<br>     higherOrderFunction(myFunc)<br> }</code></pre>"
+  - text: "Calling it through a unique identifier of the function:<pre><code class=\"\
+    language-go\"> func main() {<br>     func myFunction() {<br>         fmt.Println(\"\
+    Hello, World!\")<br>     }<br>     myFunction()<br> }</code></pre>"
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/22034#comment
+status: Solved
+record: -1
+local_check: false

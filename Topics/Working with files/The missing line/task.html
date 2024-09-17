@@ -1,0 +1,22 @@
+<div class="step-text">
+<p></p>
+<p>Below you can see a snippet of code that uses <code class="language-go">os.OpenFile()</code> to create a file — <em>new_file.txt</em> and afterward open it in the write-only mode. However, there is a very important line of code missing that we need to add just before the program ends:</p>
+<pre><code class="language-go">package main
+
+import (
+    "log"
+    "os"
+)
+
+func main() {
+    // Create and Open "new_file.txt" in the write-only mode
+    file, err := os.OpenFile("hello.txt", os.O_CREATE|os.O_WRONLY, 0644)
+    if err != nil {
+        log.Fatal(err)
+    }
+
+    // What should we do with the file before the program ends?
+    ? // the missing line goes here!
+}</code></pre>
+<p>Enter below a short text with the missing line:</p>
+</div>

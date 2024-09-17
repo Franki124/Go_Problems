@@ -1,0 +1,17 @@
+<div class="step-text">
+<p></p>
+<p>Let's take a look once again at the <code class="language-go">newIncrement()</code> function from theory:</p>
+<pre><code class="language-go">func newIncrement() func() int {
+    var number int
+    return func() int {
+        number += 1
+        return number
+    }
+}</code></pre>
+<p>And create a new function! But you need to make two upgrades:</p>
+<ul>
+<li>the <code class="language-go">newIncrement()</code> function should take as an argument the <code class="language-go">start</code> value of a number;</li>
+<li>the <code class="language-go">newIncrement()</code> function should increment the <code class="language-go">number</code> variable by the value of <code class="language-go">inc</code>.</li>
+</ul>
+<p>Your program will take as input two numbers: a <code class="language-go">start</code> value and an <code class="language-go">inc</code> value. Finally, you need to print the result of <code class="language-go">increment</code>.</p><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">1 -1<br></code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">0<br></code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+</div>

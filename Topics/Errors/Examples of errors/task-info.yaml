@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: A failed call to an API
+  - text: Trying to divide by zero
+  - text: Abnormal user inputs
+  - text: A failed database connection
+  - text: Trying to access an unexisting file
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16776#comment
+status: Solved
+record: -1
+local_check: false

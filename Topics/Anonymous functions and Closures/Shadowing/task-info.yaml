@@ -1,0 +1,16 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 15<br>19<br><br>
+  - text: 19<br>15<br><br>
+  - text: 15<br>4<br><br>
+  - text: 4<br>4<br><br>
+  - text: 4<br>15<br><br>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/22036#comment
+status: Solved
+record: -1
+local_check: false

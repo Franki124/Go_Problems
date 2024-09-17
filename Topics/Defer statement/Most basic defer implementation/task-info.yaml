@@ -1,0 +1,14 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17695#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Bond,
+    James Bond</html>
+  time: "Sat, 24 Aug 2024 19:08:36 UTC"
+record: -1
+submission_language: go

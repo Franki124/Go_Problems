@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - <code>os.O_CREATE</code>
+  - <code>os.O_RDWR</code>
+  - <code>os.O_WRONLY</code>
+  - <code>os.O_APPEND</code>
+  - <code>os.O_RDONLY</code>
+options:
+  - Opens the file in the read-and-write mode
+  - Opens the file in the write-only mode
+  - Opens the file in the read-only mode
+  - Adds data to the end of the file
+  - Creates a new file if it doesn't exist
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16501#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4

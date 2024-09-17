@@ -1,0 +1,16 @@
+type: code
+custom_name: Jerry's best friends ever!
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17211#comment
+status: Solved
+feedback:
+  message: |-
+    <html>George Costanza is one of Jerry's best friends
+
+    Well done! 👓🧑🏻‍🦲👔</html>
+  time: "Sat, 07 Sep 2024 18:39:44 UTC"
+record: -1
+submission_language: go

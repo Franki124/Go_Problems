@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: 6
+  - text: -2
+  - text: -4
+  - text: -6
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17697#comment
+status: Solved
+record: -1
+local_check: false

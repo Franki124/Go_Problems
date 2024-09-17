@@ -1,0 +1,25 @@
+<div class="step-text">
+<p></p>
+<p>Emma has just finished learning about defer statements! She has created a Go program that has both deferred functions and deferred <code class="language-go">fmt.Println()</code> statements:</p>
+<pre><code class="language-go">package main
+
+import "fmt"
+
+func foo() {
+    fmt.Println("4️⃣")
+    defer fmt.Println("5️⃣")
+}
+
+func bar() {
+    defer fmt.Println("2️⃣")
+    fmt.Println("3️⃣")
+}
+
+func main() {
+    defer fmt.Println("1️⃣")
+    defer bar()
+    foo()
+}</code></pre>
+<p>Emma is challenging her friends to guess the correct order in which they'll be printed!</p>
+<p>Please list the output of the <code class="language-go">fmt.Println()</code> statements below in the correct order they will be printed.</p>
+</div>

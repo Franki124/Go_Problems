@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "<code>os.Remove()</code> can delete one file or an empty directory, while\
+    \ <code>os.RemoveAll()</code> can delete a file, an empty directory, or a non-empty\
+    \ directory"
+  - text: "<code>os.Remove()</code> can only be used to delete a file, while <code>os.RemoveAll()</code>\
+    \ can only be used to delete an empty or non-empty directory"
+  - text: There is no difference between them. Both have the same function
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16506#comment
+status: Solved
+record: -1
+local_check: false

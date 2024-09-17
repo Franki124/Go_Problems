@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: <code>errors.Wrap</code>
+  - text: <code>fmt.Errorf</code>
+  - text: <code>xerrors.Errorf</code>
+  - text: <code>errors.New</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16778#comment
+status: Solved
+record: -1
+local_check: false

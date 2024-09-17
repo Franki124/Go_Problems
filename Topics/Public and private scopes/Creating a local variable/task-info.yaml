@@ -1,0 +1,16 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17516#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Passed. Well done! 🏆
+
+    I'm fairly local... I've been around! I've seen the functions, you're coding now!</html>
+  time: "Sun, 15 Sep 2024 14:17:34 UTC"
+record: -1
+submission_language: go

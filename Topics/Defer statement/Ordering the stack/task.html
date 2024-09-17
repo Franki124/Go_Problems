@@ -1,0 +1,11 @@
+<div class="step-text">
+<p></p><p>Below you will see a small Go program that has multiple deferred <code class="language-go">fmt.Println()</code> statements:</p><pre><code class="language-go">package main
+
+import "fmt"
+
+func main() {
+    defer fmt.Println("3️⃣")
+    defer fmt.Println("1️⃣")
+    defer fmt.Println("2️⃣")
+}</code></pre><p>Deferred statements in Go are executed in a Last-In-First-Out (LIFO) order. Based on this premise, sort below the deferred <code class="language-go">fmt.Println()</code> statements in the correct order they will be executed.</p>
+</div>

@@ -1,0 +1,20 @@
+type: matching
+captions:
+  - <code>Write()</code>
+  - <code>Sum()</code>
+  - <code>Reset()</code>
+options:
+  - Appends a slice of bytes to the current hash and returns the resulting slice
+  - Resets the hash to one with zero bytes written
+  - Takes a slice of bytes as an argument and adds it to the hash that will be calculated
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/19067#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2

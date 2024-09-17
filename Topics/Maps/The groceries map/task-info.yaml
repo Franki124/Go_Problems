@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: "<code>potatoes[\"groceries\"] = 8</code>"
+  - text: "<code>groceries[potatoes] = 8</code>"
+  - text: <code>groceries.potatoes = 8</code>
+  - text: "<code>groceries[\"potatoes\"] = 8</code>"
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23500#comment
+status: Solved
+record: -1
+local_check: false

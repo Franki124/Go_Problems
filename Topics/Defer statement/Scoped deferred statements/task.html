@@ -1,0 +1,11 @@
+<div class="step-text">
+<p></p><p>Below you will see a small code snippet that contains scoped and deferred anonymous functions:</p><pre><code class="language-go">func scopedDefer() (x int) {
+    x--
+    defer func() { x += 10 }()
+    {
+        defer func() { x *= 2 }()
+    }
+    x--
+    return
+}</code></pre><p>Please select the final value of <code class="language-go">x</code> when the <code class="language-go">scopedDefer()</code> function is completed.</p><p></p><div class="alert alert-primary">Note that the <code class="language-go">x</code> variable is defined as a <a href="https://go.dev/tour/basics/7" rel="noopener noreferrer nofollow" target="_blank"><strong>named return value</strong></a> of the <code class="language-go">scopedDefer()</code> function; therefore the initial value of <code class="language-go">x</code> is <code class="language-go">0</code>.</div>
+</div>

@@ -1,0 +1,23 @@
+type: matching
+captions:
+  - "<code>strings.HasPrefix(source, \"go\")</code>"
+  - "<code>strings.HasSuffix(source, \"go\")</code>"
+  - "<code>strings.Index(source, \"g\")</code>"
+  - "<code>strings.Count(source, \"\")</code>"
+options:
+  - <code>true</code>
+  - <code>7</code>
+  - <code>false</code>
+  - <code>0</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/24786#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

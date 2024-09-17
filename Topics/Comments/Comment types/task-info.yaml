@@ -1,0 +1,27 @@
+type: matching
+captions:
+  - <code>// This is a comment</code>
+  - "<code>// Print \"Hello, Gopher!\"<br>// to the console\_\_\_\_\_\_\_</code>"
+  - "<code>/*\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+  \_\_\_\_\_\_\_\_\_\_\_<br>Package gopher provides the HelloGopher() function<br>that\
+  \ prints a greeting: \"Hello Gopher!\"\_\_\_\_\_\_\_\_\_\_\_<br>*/\_\_\_\_\_\_\_\
+  \_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\_\
+  </code>"
+  - <code>//go:noinline</code>
+options:
+  - Multiline comment
+  - Compiler directive
+  - Block comment
+  - Line comment
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/25566#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3

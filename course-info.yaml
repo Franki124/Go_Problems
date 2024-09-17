@@ -1,0 +1,9 @@
+type: hyperskill
+title: Go Problems
+language: English
+summary: All problems in Go programming language that can't be opened together with
+  currently selected Hyperskill project.
+programming_language: Go
+content:
+  - Topics
+mode: Study

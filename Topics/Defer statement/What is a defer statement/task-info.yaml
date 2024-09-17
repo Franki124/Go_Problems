@@ -1,0 +1,20 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The <code>defer</code> statement ignores the execution of a function in our
+      Go program.
+  - text: The <code>defer</code> statement delays the execution of a function until
+      the surrounding function returns.
+  - text: "When working with multiple defer statements, the program pushes them onto\
+    \ a queue and calls them out in the FIFO order."
+  - text: "When working with multiple defer statements, the program pushes them onto\
+    \ a stack and calls them out in the LIFO order."
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17696#comment
+status: Solved
+record: -1
+custom_name: What is a defer statement?
+local_check: false

@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: strings
+  - text: Strings
+  - text: string
+  - text: str
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18998#comment
+status: Solved
+record: -1
+local_check: false

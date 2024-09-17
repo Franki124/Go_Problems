@@ -1,0 +1,11 @@
+<div class="step-text">
+<p></p>
+<p>Mary is playing around with Go interfaces. She wants to create a very simple <code class="java">Formatter</code> interface for the <code class="java">Text</code> type that implements three methods:</p>
+<ul>
+<li>The <code class="java">TabFormat()</code> method — it should return a tab character <code class="java">"\t"</code> + the <code class="java">string(t)</code></li>
+<li>The <code class="java">DoubleQuoteFormat()</code> method — it should return <code class="java">string(t)</code> wrapped within double quotes <code class="java">"</code></li>
+<li>The <code class="java">SingleQuoteFormat()</code> method — it should return <code class="java">string(t)</code> wrapped within single quotes <code class="java">'</code></li>
+</ul>
+<p>Your task is to help Mary write the additional required code to create the three above methods and the <code class="java">Formatter</code> interface that implements these methods.</p>
+<p></p><div class="alert alert-primary">This problem uses the <code class="java">bufio</code> package to scan whitespace-separated strings from the standard input and save them into the <code class="java">someText</code> variable. However, don't be scared! you don't need to know how the <code class="java">bufio</code> package works to solve this task.</div><br><b>Sample Input:</b><br><pre><code class="language-no-highlight">The quick brown fox jumps over the lazy dog</code></pre><br><b>Sample Output:</b><br><pre><code class="language-no-highlight">&#39;The quick brown fox jumps over the lazy dog&#39;<br>&quot;The quick brown fox jumps over the lazy dog&quot;<br>	The quick brown fox jumps over the lazy dog</code></pre><br><br><br><font color="gray">Memory limit: 256 MB</font><br><font color="gray">Time limit: 8 seconds</font><br><br>
+</div>

@@ -1,0 +1,12 @@
+content:
+  - Theory
+  - Examples of errors
+  - The error type
+  - Creating custom errors
+  - Wrapping errors
+  - Unwrapping errors
+  - Error when opening a file
+  - Age input error
+  - The verb for wrapped errors
+  - Printing predefined errors
+  - Square root of a negative number

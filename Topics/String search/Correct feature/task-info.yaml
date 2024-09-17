@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: "HasPrefix(source, sub)"
+  - text: "strings.Count(source, sub)"
+  - text: "strings.Contains(sub, source)"
+  - text: source.Index(sub)
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18996#comment
+status: Solved
+record: -1
+local_check: false

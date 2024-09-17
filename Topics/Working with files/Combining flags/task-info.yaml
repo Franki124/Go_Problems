@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code class="language-go">os.O_WRONLY|os.O_CREATE</code>
+  - text: <code class="language-go">os.O_RDONLY|os.O_APPEND</code>
+  - text: <code class="language-go">os.O_WRONLY|os.O_APPEND</code>
+  - text: <code class="language-go">os.O_RDWR|os.O_CREATE</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16502#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,13 @@
+type: code
+custom_name: Using defer to print a reversed string!
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17699#comment
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Sun, 25 Aug 2024 18:35:25 UTC"
+record: -1
+submission_language: go

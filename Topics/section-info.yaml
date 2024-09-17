@@ -1,0 +1,27 @@
+content:
+  - Comments
+  - Loops
+  - Errors
+  - Anonymous functions and Closures
+  - Defer statement
+  - Working with files
+  - Reading files
+  - Maps
+  - Operations with maps
+  - String search
+  - Operations with strings
+  - Advanced Input
+  - Generating random numbers and strings
+  - Hashing strings and files
+  - Interfaces
+  - Math package
+  - Methods
+  - Public and private scopes
+  - Slice expressions
+  - String search
+  - Structs
+  - Type conversion and overflow
+  - Variadic functions
+  - Debugging Go code
+  - Working with time
+  - Writing data to files

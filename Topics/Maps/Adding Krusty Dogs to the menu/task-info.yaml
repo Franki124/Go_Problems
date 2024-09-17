@@ -1,0 +1,15 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17002#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Mr. Krabs 🦀 paid you one doubloon 🪙 for updating the map, you should be grateful!
+
+    map[Coral Bits 🍟:1.95 Krabby Pattie 🍔:2.49 Krusty Combo 🍔🥤🍟:3.99 Krusty Dog 🌭:3.99]</html>
+  time: "Fri, 06 Sep 2024 17:11:36 UTC"
+record: -1
+submission_language: go

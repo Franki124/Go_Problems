@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: <code>os.OpenFile()</code>
+  - text: <code>os.Remove()</code>
+  - text: <code>os.Open()</code>
+  - text: <code>os.Create()</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16499#comment
+status: Solved
+record: -1
+local_check: false

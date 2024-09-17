@@ -1,0 +1,17 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: strings
+  - text: pointers
+  - text: integers
+  - text: floating or complex numbers
+  - text: slices
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17004#comment
+status: Solved
+record: -1
+custom_name: What types can we use as keys in maps?
+local_check: false

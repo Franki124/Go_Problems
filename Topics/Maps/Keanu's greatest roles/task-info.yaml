@@ -1,0 +1,15 @@
+type: code
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17001#comment
+status: Solved
+feedback:
+  message: |-
+    <html>Keanu says you're breathtaking!
+
+    map[Constantine:John Constantine 👨🏻‍💼 John Wick:Jardani Jovanovich 🤵🏻‍♂️ Speed:Jack Traven 👮🏻 The Matrix:Neo 🕵🏻‍♂️]</html>
+  time: "Fri, 06 Sep 2024 17:14:58 UTC"
+record: -1
+submission_language: go

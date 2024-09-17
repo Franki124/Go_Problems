@@ -1,0 +1,16 @@
+type: remote_edu
+custom_name: Keanu is writing his most famous quotes!
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+  - name: tests.py
+    visible: false
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/18609#comment
+check_profile: hyperskill_go
+status: Solved
+feedback:
+  message: <html>Correct solution</html>
+  time: "Fri, 13 Sep 2024 12:11:04 UTC"
+record: -1

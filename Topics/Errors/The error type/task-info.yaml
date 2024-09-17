@@ -1,0 +1,18 @@
+type: choice
+is_multiple_choice: true
+options:
+  - text: The default value of <code>error</code> is <code>nil</code>
+  - text: We can only use the <code>error</code> type if we import the <code>errors</code>
+      package
+  - text: The <code>error</code> type returns an error message as a <code>string</code>
+  - text: The default value of <code>error</code> is <code>true</code>
+  - text: <code>error</code> is an <code>interface</code> type that belongs to the <code>builtin</code>
+      package
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/16777#comment
+status: Solved
+record: -1
+local_check: false

@@ -1,0 +1,16 @@
+type: sorting
+options:
+  - <code>fmt.Println("3️⃣")</code>
+  - <code>fmt.Println("2️⃣")</code>
+  - <code>fmt.Println("1️⃣")</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/17701#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2

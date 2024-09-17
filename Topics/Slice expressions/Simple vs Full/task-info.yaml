@@ -1,0 +1,31 @@
+type: table
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20417#comment
+status: Solved
+record: -1
+rows:
+  - Do not support strings and substrings
+  - Any range index can be omitted
+  - Only the <code>low</code> range index can be omitted
+  - "Use the <code>s[low:high]</code> syntax"
+  - Support strings and substrings
+  - "Use the <code>s[low:high:max]</code> syntax"
+columns:
+  - Simple slice expressions
+  - Full slice expressions
+selected:
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false
+  - - false
+    - false

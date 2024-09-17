@@ -1,0 +1,26 @@
+type: matching
+captions:
+  - <code>break</code>
+  - <code>continue</code>
+  - <code>stepout</code>
+  - <code>list</code>
+  - <code>help</code>
+options:
+  - Go to a higher function in the stack trace
+  - Proceed with the program until reaching a breakpoint or program termination
+  - Display a section of the program code around the current line
+  - Set a stopping point at a specific location in the code
+  - ' Display the entire list of Delve commands and their descriptions'
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23080#comment
+status: Solved
+record: -1
+ordering:
+  - 0
+  - 1
+  - 2
+  - 3
+  - 4

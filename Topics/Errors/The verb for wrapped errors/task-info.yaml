@@ -1,0 +1,15 @@
+type: choice
+is_multiple_choice: false
+options:
+  - text: <code>%v</code>
+  - text: <code>%w</code>
+  - text: <code>%q</code>
+  - text: <code>%s</code>
+files:
+  - name: main.go
+    visible: true
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/23492#comment
+status: Solved
+record: -1
+local_check: false
